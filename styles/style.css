@@ -315,13 +315,15 @@ a {
 }
 
 .footer {
-  padding: 50px;
   display: flex;
   justify-content: space-between;
   /* gap: 40px; */
 }
 .first-footer {
   width: 50%;
+}
+.footerr {
+  padding: 70px 30px;
 }
 .footer-second {
   width: 30%;
