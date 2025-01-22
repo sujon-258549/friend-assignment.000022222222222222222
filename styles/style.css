@@ -315,7 +315,7 @@ a {
 }
 
 .footer {
-  /* padding: 50px 50px; */
+  padding: 50px;
   display: flex;
   justify-content: space-between;
   /* gap: 40px; */
