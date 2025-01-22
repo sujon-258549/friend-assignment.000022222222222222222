@@ -8,21 +8,30 @@
   padding: 0 140px;
   max-width: 1440px;
 }
+
+/* herobg */
+.hero-bg {
+  background: url("../assets//bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /* shared styles */
 .span-color {
   color: orange;
 }
 .color-pink {
-  color: purple;
+  color: rgb(1, 172, 253);
   /* margin-left: -18px; */
 }
 .btn-primary {
   width: 150px;
   height: 40px;
   border-radius: 12px;
-  font-size: 15px;
+  font-size: 20px;
   color: white;
   background: rgb(254, 163, 1);
+  font-weight: 600;
   border: none;
 }
 .btn-secondary {
@@ -82,6 +91,7 @@ a {
 /* hero-section here */
 .hero-section {
   display: flex;
+  gap: 30px;
   justify-content: space-between;
   align-items: center;
 }
@@ -248,9 +258,17 @@ a {
 .story {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-image: url(/assets/bg.png),
-    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  background: linear-gradient(
+      0deg,
+      rgba(254, 163, 1, 0.3),
+      rgba(255, 255, 255, 0.3) 100%
+    ),
+    url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 .story-btn {
   margin-top: -30px;
 }
@@ -439,10 +457,13 @@ a {
   .article-2 .story-titles {
     font-size: 16px !important;
   }
+
+  .footerr {
+    padding: 50px 0;
+  }
   .footer {
     flex-direction: column;
     gap: 20px;
-    margin-left: 10px;
   }
 
   .first-footer {
@@ -459,8 +480,6 @@ a {
   }
   .last-footer {
     margin-top: 25px;
-    margin-bottom: 50px;
-    margin-left: 10px;
   }
   .footer-second {
     margin-left: 10px;
