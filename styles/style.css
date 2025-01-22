@@ -195,6 +195,9 @@ a {
     ),
     rgb(255, 255, 255);
 }
+.header {
+  padding-top: 20px;
+}
 .previous-btn,
 .next-btn {
   font-size: 24px;
@@ -422,7 +425,9 @@ a {
     align-items: center;
     padding: 20px 0;
   }
-
+  .header {
+    padding-top: 0px;
+  }
   .cards-container {
     flex-direction: column;
     height: 100%;
