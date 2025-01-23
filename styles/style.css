@@ -440,7 +440,6 @@ a {
   }
   .article-2 {
     width: 100%;
-    grid-template-columns: repeat(1, 1fr);
   }
 
   .story-headline {
@@ -461,6 +460,26 @@ a {
   }
   .article-2 .story-titles {
     font-size: 16px !important;
+  }
+
+  .article-2 .date-btn {
+    width: 120px;
+    height: 30.93px;
+    left: 0;
+    top: 0;
+    margin-left: 10px;
+  }
+
+  .article-2 .article-2-2 .date-btn {
+    width: 120px;
+    height: 30.93px;
+    left: 0;
+    top: 0;
+    margin-left: 10px;
+  }
+
+  .story-btn button {
+    font-size: 12px;
   }
 
   .footerr {
